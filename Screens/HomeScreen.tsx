@@ -57,7 +57,7 @@ function HomeScreen({ navigation }: any) {
             </View>
                 <TouchableOpacity
                     style={{alignItems:'center', backgroundColor: '#777', padding: 10, alignSelf:'center'}}
-                    onPress={() => navigation.navigate('nextScreen')}
+                    onPress={() => navigation.navigate('NextScreen')}
                 >
                     <Text style={{color:'#fff'}}>Next Screen</Text>
                 </TouchableOpacity>
