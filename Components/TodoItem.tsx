@@ -30,7 +30,7 @@ const TodoItem = ({todo, onSubmit}: TodoItemProps) => {
 
     const onKeyPress=({nativeEvent}:any)=>{
         if(nativeEvent.key==='Backspace' && content===''){
-            console.log('Deleted')
+            //console.log('Deleted')
         }
     }
 
