@@ -28,7 +28,7 @@ const TodoItem = ({todo, onSubmit}: TodoItemProps) => {
         }
     }, [])
 
-    const onKeyPress=({nativeEvent})=>{
+    const onKeyPress=({nativeEvent}:any)=>{
         if(nativeEvent.key==='Backspace' && content===''){
             console.log('Deleted')
         }
